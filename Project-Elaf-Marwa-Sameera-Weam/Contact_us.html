@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contac us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+</head>
+<body>
+    <header>
+    <!-- Navigation Bar -->
+       <nav class="navbar">
+         <div class="logo">
+          <img src="./Media/Logo.png" alt="logo" height="50" width="150">
+         </div>
+         <div class="links">
+           <div class="dropdown">
+        <a href="index.html" class="dropbtn">Discover ▾</a>
+        <div class="dropdown-menu">
+            <a href="./Discover.html#natural">Natural Skincare</a>
+            <a href="./Discover.html#routine">Glow Routine</a>
+            <a href="./Discover.html#products">Products</a>
+            <a href="./Discover.html#budget">Budget Options</a>
+        </div>
+    </div>
+            <a href="My_Routine.html">My Routine</a>
+
+            <a href="About_us.html">About us</a>
+            <a href="Contact_us.html" class="on">Contact us</a>
+         </div>
+         <div class="profile">
+          <a href="./Profile.html">
+            <img src="./Media/profilelogo.png" alt="Profile Logo">
+            </a>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-image">
+            <div class="contact">
+                <h1>We would love to hear from you!</h1>
+                <p>If you have any questions, feedback, or need <br>support, feel free to reach out. Our team is here<br> to help you</p>
+            </div>
+        </section>
+
+
+         <section class="contacts-list">
+
+              <div class="contact-info">
+                <a href="tel:+966501887293" class="info">
+                <h2>Phone</h2>
+                <p>+966501887293</p>
+                </a>
+
+               <a href="https://wa.me/966501887293" target="_blank" class="info">
+               <h3>WhatsApp</h3>
+               <p>+966501887293</p>
+               </a>
+
+               <a href="mailto:sameerasalem63@gmail.com" class="info full">
+               <h3>Email</h3>
+               <p>sameerasalem63@gmail.com</p>
+               </a>
+              </div> 
+
+       
+      <!-- it was <form class="contact-form"> -->
+      <form class="contact-form" action="#" method="POST">
+        <h2>Get In Touch</h2>
+        <p>We're here to help you anytime.</p>
+
+         <!-- changed the  pattern -->
+        <label>First Name:
+    <input type="text" name="first-name" placeholder="First Name" required pattern="[A-Za-z\s]+">
+  </label>
+        
+  <label>Last Name:
+    <input type="text" name="Last-name" placeholder="Last Name" required pattern="[A-Za-z\s]+">
+  </label>
+
+  <label>Gender:</label>
+  <div class="gender-options">
+    <label><input type="radio" name="gender" value="male" required> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+
+  </div>
+
+    <label>Mobile Number:
+    <input type="tel" name="mobile" placeholder="+9665XXXXXXXX" required pattern="[0-9+]{10,15}">
+  </label>
+
+        <label>Email:
+          <input type="email" name="email" placeholder="E.g., m@m.com" required pattern="[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,4}\.*[a-zA-Z]*">
+        </label>
+
+  
+  </div>
+
+  <label>Date of Birth:
+    <input type="date" name="dob" required>
+  </label>
+
+<label>Preferred Language:</label>
+  <div class="language-options">
+    <label><input type="checkbox" name="language[]" value="arabic"> Arabic</label>
+    <label><input type="checkbox" name="language[]" value="english"> English</label>
+    <label><input type="checkbox" name="language[]" value="French"> French</label>
+      <label><input type="checkbox" name="language[]" value="other"> Other</label> </div>
+  
+        <label>Subject:
+          <input type="text" name="subject" placeholder="Subject">
+        </label>
+    
+        <label>Message:
+          <textarea placeholder="Message"  name="message" required minlength="10" rows="6"></textarea>
+        </label> 
+
+        <button type="submit">Send Now</button>
+
+      </form>
+
+     </section>
+
+    </main>
+    <footer>
+    <p> © 2025 Auri - All rights reserved</p>
+
+    <div class="social">
+        <p>Follow us on:</p>
+
+        <a href="https://x.com/auri1019966?s=11&t=4tpI4EBMDq5WKxhsz12-rw">
+            <i class="fa-brands fa-twitter"></i>
+            </a>
+
+
+        <a href="https://sa.linkedin.com/in/auri-0-60760a3b9">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
